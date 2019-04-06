@@ -5,7 +5,7 @@ double comission(double grossSales) {
 }
 
 int main() {
-  const int baseSalary = 200;
+  const int BASE_SALARY = 200;
   double grossSales;
 
   while (grossSales > -1) {
@@ -16,6 +16,6 @@ int main() {
       break;
     }
 
-    printf("Salary is $%.2f\n", (comission(grossSales) + baseSalary));
+    printf("Salary is $%.2f\n", (comission(grossSales) + BASE_SALARY));
   }
 }
