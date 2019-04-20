@@ -11,8 +11,8 @@ int main(void)
   unsigned int fCount = 0;
 
   puts("Enter the letter grades.");
-  puts("Enter the EOF character to end input.");
-  // enter Ctrl D to stop execution
+  puts("Enter Ctrl+D (Unix Systems) /Ctrl+Z (Windows Systems) to end.");
+  // enter Ctrl D/Ctrl Z to stop execution
 
   while ((grade = getchar()) != EOF) {
     switch (grade) {
