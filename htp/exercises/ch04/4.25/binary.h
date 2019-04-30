@@ -1,0 +1,1 @@
+char * binary(int decimal);
