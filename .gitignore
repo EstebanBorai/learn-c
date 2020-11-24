@@ -3,6 +3,7 @@
 .AppleDouble
 .LSOverride
 a.out
+*.out
 
 # Icon must end with two \r
 Icon
