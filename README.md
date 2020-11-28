@@ -5,3 +5,17 @@
   <h1 align="center">C How To Program</h1>
   <h4 align="center">📚 C How to Program - Book Exercises</h4>
 </div>
+
+## Getting Started
+This repository makes use of CUnit to run tests for the exercises.
+
+You must install CUnit in your environment in order to check for
+exercises validations.
+
+```shell
+# install with apt-get
+sudo apt-get install libcunit1 libcunit1-doc libcunit1-dev
+
+# run the tests
+gcc  -o test test.c  -lcunit
+```
