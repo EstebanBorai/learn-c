@@ -24,12 +24,11 @@ int main() {
     }
 
     //supones que numero 2 tiene la mejor nota
-    if (num2 > num1 && num2 >num3) {
+    if (num2 > num1 && num2 > num3) {
         printf("%s tiene la mejor calificación con %d puntos", nom2, num2);
     }
 
-    //supones que el tercero tiene la calificacion mas baja
-    if (num3 < num1 && num2) {
-        printf("%s tiene la menor calificación con %d puntos", nom3, num3);
+    if (num3 > num1 && num3 > num2) {
+        printf("%s tiene la mejor calificación con %d puntos", nom3, num3);
     }
 }
